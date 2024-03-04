@@ -11,7 +11,8 @@ app.use(express.json());
   try {
     // await mongoose.connect(`mongodb://127.0.0.1:27017/Project`);
     const response = await mongoose.connect(
-      `mongodb+srv://chitvan201049cst:Chitvan123@cluster0.leijrub.mongodb.net/Project`
+      // `mongodb+srv://chitvan201049cst:Chitvan123@cluster0.leijrub.mongodb.net/Project`
+        `mongodb://127.0.0.1:27017/Project`
       // `${process.env.MONGODB_URI}/Project`
       // console.log(response);
     );
