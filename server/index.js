@@ -11,8 +11,8 @@ app.use(express.json());
   try {
     // await mongoose.connect(`mongodb://127.0.0.1:27017/Project`);
     const response = await mongoose.connect(
-      `mongodb+srv://chitvan201049cst:Chitvan123@cluster0.leijrub.mongodb.net/Project` // To connect MongoDB Atlas
-        // `mongodb://127.0.0.1:27017/Project` // Connect to local database in system
+     
+         `mongodb://127.0.0.1:27017/Project` // Connect to local database in system
       // console.log(response);
     );
   } catch (error) {
